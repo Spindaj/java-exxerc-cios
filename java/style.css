@@ -1,0 +1,41 @@
+:root{
+    --cor-fundo : rgb(49, 63, 65);
+    --cor-houver : rgb(88, 218, 127);
+    --cor-priincipal : rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-priincipal);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dp-menu ul li a:hover{
+    background-color: var(--cor-houver);
+}
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+}
+
+.dp-menu ul ul{
+    width: 150px;
+}
+
+.dp-menu ul ul li a{
+    display: block;
+}
